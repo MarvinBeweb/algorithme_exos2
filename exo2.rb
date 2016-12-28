@@ -13,9 +13,12 @@ while sorted == false
 			tableau[i] = tableau[i+1];
 			tableau[i+1] = switch;
 			sorted = false;
+			print ("#{tableau} \n");
 	end
+		
 	i = i+1;
-
+		
 	end
-  end
+  	end
 print (tableau);
+			

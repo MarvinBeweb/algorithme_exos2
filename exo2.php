@@ -10,6 +10,7 @@
              $tableau[$i] = $tableau[$i + 1];
              $tableau[$i + 1] = $permut;
              $sorted = false;
+		print_r ($tableau);
          }
      }
  }
